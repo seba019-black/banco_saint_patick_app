@@ -10,10 +10,11 @@
     <nav>
         <li><a href="/nosotros">Nosotros</a></li>
         <li><a href="/contacto">Contacto</a></li>
+        <button type="submit" onclick="location.href='templates/login.php'">Login</button>
         <h1>VER SALDO</h1>
     </nav>
     <head>
-        <input type="text" name="" id="" placeholder="saldo actual">
+    <label for="saldo">Saldo Actual</label>
         <div>
             <button onclick="location.href='templates/movimiento.php'">Movimientos</button>
             
