@@ -1,1 +1,1 @@
-En esta carpeta se va a crear la conección a la base de datos
+En esta carpeta se va a crear la conexión a la base de datos
