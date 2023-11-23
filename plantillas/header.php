@@ -15,7 +15,7 @@
         <nav class="navegador">
             <a href="./nosotros.php">nosotros</a>
             <a href="./contacto.php">contacto</a>
-            <button type="submit" onclick="location.href='templates/login.php'">Login</button>
+            <button type="button">Login</button>
         </nav>
     </header>
     <main>
