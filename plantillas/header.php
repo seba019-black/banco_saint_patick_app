@@ -1,21 +1,25 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/estilos.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Home</title> 
+    <title>Transferir</title>
 </head>
 <body>
-    <header>
-        <div class="titulo">
-            <h1>saint patrick bank</h1>
-        </div>
-        <nav class="navegador">
-            <a href="./nosotros.php">nosotros</a>
-            <a href="./contacto.php">contacto</a>
-            <button type="button">Login</button>
+        <nav class="nav">
+            <img class="logo" src="./img/logo.png" alt="">
+            <ul id="ul-nav">
+                <li class="li-nav"><a class="nav-barra" href="#">Personas</a></li>
+                <li class="li-nav"><a class="nav-barra"  href="#">Solicita tu tarjeta <i class="fa-regular fa-credit-card"></i></a></li>
+                <li class="li-nav"><a class="nav-barra"  href="#">Institucional </a></li>
+                <li ><a class="nav-barra"  id="home"href="templates/usuario/index.php">Home Banking <i class="fa-solid fa-lock"></i></a></li>
+            </ul>
+            
         </nav>
-    </header>
-    <main>
+        <div class="scrol"></div>
+
+    <script src="./js/main.js"></script>
+    
+</body>
+</html>
