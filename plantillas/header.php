@@ -1,3 +1,6 @@
+<?php
+    $url_base="lhttp://localhost/banco_saint_patrick_app/"
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
